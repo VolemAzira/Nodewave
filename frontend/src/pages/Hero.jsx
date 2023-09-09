@@ -14,15 +14,12 @@ const Hero = () => {
 
   return (
     <div className="h-screen" style={backgroundStyle}>
-      <main className="flex items-center h-screen">
-        <section className="flex items-start md:mx-[93px]">
+      <main className="mx-5 flex h-screen items-center md:mx-[93px]">
+        <section className=" flex max-w-[910px] items-start justify-center">
           <img src={code} className="" alt="" />
           <div className="flex flex-col gap-10 pt-5">
-            <div className="text-white text-5xl font-semibold">
-              Make Your Own
-              <br />
-              Website and Mobile Application
-              <br />
+            <div className="text-2xl font-semibold text-white md:text-5xl">
+              Make Your Own Website and Mobile Application
               <div className="flex">
                 With Nodewave <img src={head} alt="" />
               </div>
@@ -30,7 +27,7 @@ const Hero = () => {
             <div>
               <Button>Get Started Now</Button>
             </div>
-            <p className="text-2xl max-w-[910px]">
+            <p className="md:text-2xl">
               Create Mobile Applications and Websites for Companies or Your
               Business Have a transparent pricing, easy and straightforward
               development process
@@ -38,7 +35,7 @@ const Hero = () => {
           </div>
         </section>
       </main>
-      <div className="absolute bottom-0 bg-gradient-to-t from-black to-black/60 w-full h-[150px] z-5"></div>
+      <div className="z-5 absolute bottom-0 h-[150px] w-full bg-gradient-to-t from-black to-black/60"></div>
     </div>
   );
 };
