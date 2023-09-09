@@ -1,5 +1,4 @@
 import React from "react";
-
 import chat from "../assets/chat.svg";
 
 const How = () => {

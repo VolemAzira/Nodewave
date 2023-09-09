@@ -1,5 +1,4 @@
 import React from "react";
-
 import List from "../assets/list.svg";
 import Basket from "../assets/basket.svg";
 import Book from "../assets/book.svg";
